@@ -1,0 +1,246 @@
+@import './global.css';
+
+.footer-sub-position {
+    margin-top: 250px;
+    position: relative;
+
+}
+
+footer {
+    position: relative;
+    background-color: var(--black);
+}
+
+.footer__container {
+    padding-bottom: 60px;
+    z-index: -1;
+    padding-top: 150px;
+}
+
+.footer--sub__container {
+    padding-inline: 60px;
+    padding-bottom: 40px;
+    background-color: var(--peach);
+    position: absolute;
+    top: -200px;
+    margin-inline: 10%;
+    border-radius: 10px;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../images/shared/desktop/bg-pattern-call-to-action.svg);
+}
+
+.footer--sub__info {
+    max-width: 60%;
+}
+
+.footer__sub--title {
+    max-width: 268px;
+    text-wrap: wrap;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: left;
+    color: var(--white);
+    margin-top: 72px;
+
+
+}
+
+footer .header {
+    margin-bottom: 10px;
+}
+
+.list-items a {
+    color: white;
+}
+
+.footer--btn,
+.btn {
+
+    padding: 18px 25px;
+    background-color: var(--white);
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 21.68px;
+    letter-spacing: 1px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.footer--btn {
+    width: 152px;
+    height: 56px;
+    text-wrap: nowrap;
+    margin-top: 118px;
+
+
+}
+
+.footer--sub__disc {
+    max-width: 459px;
+    height: 78px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: var(--white);
+    margin-bottom: 10%;
+
+}
+
+.footer__container .header__container a {
+    color: white;
+}
+
+.footer__container .header__container {
+    padding-bottom: 40px;
+    border-bottom: 1px solid white;
+}
+
+.social__icons {
+    display: flex;
+    max-width: 200px;
+    justify-content: space-around;
+    margin-top: 52px;
+    gap: 20px;
+}
+
+.footer__items {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 32px;
+
+}
+
+.foot__addres {
+    width: 180px;
+    text-wrap: wrap;
+    height: 78px;
+    opacity: 50%;
+    color: white;
+    text-decoration: none;
+    font-family: Jost;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.foot__list__items a {
+    text-decoration: none;
+    color: white;
+    opacity: 50%;
+    line-height: 1.7;
+    font-size: 1.6rem;
+    font-weight: 700;
+
+
+}
+
+.foot__list>li {
+    list-style: none;
+}
+
+@media screen and (max-width:875px) {
+    .footer--btn {
+        text-wrap: nowrap;
+    }
+}
+
+/* @media screen   and (max-width:800px){
+    .footer--sub__container{
+        max-width: 90%;
+        top: -80%;
+         padding: 40px 30px; 
+        padding-bottom: 80px;
+        
+    }
+}
+ */
+
+
+@media screen and (max-width:768px) {
+    .footer--sub__container {
+        top: -60%;
+    }
+    .footer-sub-position{
+        margin-top: 500px;
+    }
+
+}
+
+
+
+@media screen and (max-width:700px) {
+    .footer--btn {
+        padding: 20px;
+        text-wrap: nowrap;
+        margin-bottom: 30%;
+        margin-left: 30%;
+    }
+
+    .header__container {
+        flex-direction: column;
+        column-gap: 40px;
+    }
+
+    .nav__bar {
+        margin-top: 30px;
+    }
+
+
+    .footer__items {
+        margin-top: 0px;
+        flex-wrap: wrap;
+    }
+
+    .header {
+        margin-bottom: 0px;
+    }
+
+    .footer--sub__container {
+        flex-direction: column;
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        justify-content: start;
+        padding: 20px 40px; 
+        align-items:center;
+        top: -40%;
+        left:0;
+    }
+    .footer--sub__disc{
+        margin-top: 20px;
+        font-size: 1.5rem;
+}
+.footer__sub--title{
+    margin-top: 0;
+    font-size: 3.2rem;
+}
+    .footer--sub__disc,
+    .footer__sub--title{
+        text-align: left;
+    }
+    .footer--btn{
+        margin: 0;
+        margin-top: 40px;
+    }
+    .footer__items{
+        column-gap:40px;
+        row-gap: 40px;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .card__wrapper p{
+        font-size: 1rem;
+    }
+    .card__wrapper h2{
+       font-size: 3.5rem;
+    }
+}
